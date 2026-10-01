@@ -21,6 +21,8 @@ while principal > 0:
         total_paid = total_paid + extra_payment
 
     print(total_month,round(total_paid, 2), round(principal,2))
+    print(f"{total_month} {total_paid:.2f} {principal:.2f}")
 
-print("Total paid", round(total_paid,2))
-print("Total mounth", total_month)
+print(f"Total paid {total_paid:.2f}")
+print(f"Total mounth {total_month}")
+
